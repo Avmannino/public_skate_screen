@@ -18,19 +18,35 @@ h1 {
     text-align: center;
     /* center on page */
     font-size: 4rem;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 1vh;
 }
 
 /* Style for paragraph */
 p {
-    font-family: "Lulo";
-    color: #ffffff;
-    font-size: 1.2rem;
+    /* font-family: "Lulo"; */
+    color: #003977;
+    font-size: 2rem;
+    font-weight: bold;
     line-height: 1.6;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
+    top: 70vh;
+}
 
+.rentals {
+    color: #003977;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 70vh;
 }
 
 @font-face {
