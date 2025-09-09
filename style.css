@@ -1,10 +1,14 @@
-/* style.css */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #000000;
-    color: #333;
+    font-family: 'Lulo', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh; /* make sure it covers full viewport */
+    background-image: url('images/PublicSkate.png'); /* path to your image */
+    background-size: contain;      /* scale image to cover entire screen */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat; /* prevent tiling */
+    color: #000000; /* make text readable */
 }
+
 
 /* Style for h1 */
 h1 {
