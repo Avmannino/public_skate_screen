@@ -25,13 +25,13 @@ h1 {
 
 /* Style for paragraph */
 p {
-    /* font-family: "Lulo"; */
+    font-family: Lulo;
     color: #003977;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.6;
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
     top: 70vh;
@@ -39,19 +39,20 @@ p {
 
 .rentals {
     color: #003977;
-    font-size: 1.5rem;
+    font-family: Lulo;
+    font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.6;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
     position: relative;
-    top: 70vh;
+    top: 72vh;
 }
 
 @font-face {
     font-family: 'Lulo';
-    src: url('fonts/Lulo.ttf') format('truetype');
+    src: url('fonts/Lulo.otf') format('truetype');
 }
 
 body {
